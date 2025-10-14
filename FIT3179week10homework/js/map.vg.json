@@ -91,5 +91,5 @@
     }
   ],
 
-  "projection": {"type": "mercator","center": [144.96, -37.81],"scale": 1500}
+  "projection": {"type": "mercator","center": [144.96, -37.81],"scale": 6000}
 }
