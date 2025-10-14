@@ -17,14 +17,14 @@
     },
     {
       "name": "indicatorParam",
-      "value": "Gross value added in millions",
+      "value": "Grossvalueaddedinmillions",
       "bind": {
         "input": "select",
         "options": [
-          "Gross value added in millions",
-          "Gross regional product in millions"
+          "Grossvalueaddedinmillions",
+          "Grossregionalproductinmillions"
         ],
-        "labels": ["Gross value added in millions", "Gross value added in millions"]
+        "labels": ["Gross value added in millions", "Gross regional product in millions"]
       }
     }
   ],
