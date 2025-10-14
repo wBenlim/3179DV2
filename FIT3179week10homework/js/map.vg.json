@@ -24,7 +24,10 @@
           "Grossvalueaddedinmillions",
           "Grossregionalproductinmillions"
         ],
-        "labels": ["Gross value added in millions", "Gross regional product in millions"]
+        "labels": [
+          "Gross value added in millions",
+          "Gross regional product in millions"
+        ]
       }
     }
   ],
@@ -57,7 +60,7 @@
         },
         {"calculate": "toNumber(datum.year)", "as": "year_num"},
         {"filter": "datum.year_num == yearParam"},
-        {"filter": "datum['Unnamed: 1'] == indicatorParam"}
+        {"filter": "datum.label == indicatorParam"}
       ],
       "mark": {
         "type": "circle",
@@ -79,8 +82,8 @@
           "title": "Value (Selected Year)"
         },
         "tooltip": [
-          {"field": "Unnamed: 0", "type": "nominal", "title": "Region"},
-          {"field": "Unnamed: 1", "type": "nominal", "title": "Indicator"},
+          {"field": "Region", "type": "nominal", "title": "Region"},
+          {"field": "label", "type": "nominal", "title": "Indicator"},
           {"field": "year", "type": "ordinal"},
           {"field": "value", "type": "quantitative"}
         ]
@@ -90,4 +93,3 @@
 
   "projection": {"type": "mercator", "center": [133.8, -28.0], "scale": 800}
 }
-
