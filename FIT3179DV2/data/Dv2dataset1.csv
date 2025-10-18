@@ -1,62 +1,72 @@
-Region,label,2017,2018,2019,2020,2021,2022,2023,2024,latitude,longitude
-BALLARAT,Grossvalueaddedinmillions,349,331,392,286,214,289,503,570,-37.56,143.85
-BALLARAT,Grossregionalproductinmillions,395,376,445,325,244,331,575,651,-37.56,143.85
-BALLARAT,Fiilledjobsinthousands,4.6,4.4,4.9,3.8,2.7,3.5,5.7,6.4,-37.56,143.85
-BENDIGOLODDON,Grossvalueaddedinmillions,414,440,525,408,288,429,694,629,-36.75,144.27
-BENDIGOLODDON,Grossregionalproductinmillions,468,498,596,463,330,491,790,720,-36.75,144.27
-BENDIGOLODDON,Fiilledjobsinthousands,5.4,5.8,6.6,5.4,3.5,5.2,7.9,7,-36.75,144.27
-CENTRALHIGHLANDS,Grossvalueaddedinmillions,93,105,91,92,80,117,144,197,-23.5,148.15
-CENTRALHIGHLANDS,Grossregionalproductinmillions,107,121,104,106,93,136,167,228,-23.5,148.15
-CENTRALHIGHLANDS,Fiilledjobsinthousands,1.8,2,1.6,1.8,1.4,2.1,2.3,3.1,-23.5,148.15
-CENTRALMURRAY,Grossvalueaddedinmillions,277,328,334,301,192,246,364,380,-35.11,139.26
-CENTRALMURRAY,Grossregionalproductinmillions,317,375,384,346,223,285,419,438,-35.11,139.26
-CENTRALMURRAY,Fiilledjobsinthousands,4.6,5.5,5.2,5.1,3.3,4.1,5.3,5.3,-35.11,139.26
-GEELONGANDTHEBELLARINE,Grossvalueaddedinmillions,675,697,800,679,388,630,1019,1222,-38.14,144.35
-GEELONGANDTHEBELLARINE,Grossregionalproductinmillions,766,790,910,773,447,722,1164,1397,-38.14,144.35
-GEELONGANDTHEBELLARINE,Fiilledjobsinthousands,8.7,9,9.9,8.8,5,7.8,11.6,13.6,-38.14,144.35
-GIPPSLAND,Grossvalueaddedinmillions,474,440,553,480,405,463,689,703,-37.58,147.47
-GIPPSLAND,Grossregionalproductinmillions,541,502,630,547,465,531,789,807,-37.58,147.47
-GIPPSLAND,Fiilledjobsinthousands,6.1,5.7,6.8,6.3,5.1,5.6,7.7,7.6,-37.58,147.47
-GOULBURN,Grossvalueaddedinmillions,253,244,300,232,176,212,356,362,-34.75,149.71
-GOULBURN,Grossregionalproductinmillions,287,276,339,263,204,244,405,412,-34.75,149.71
-GOULBURN,Fiilledjobsinthousands,3.6,3.5,4.2,3.4,2.4,2.9,4.5,4.4,-34.75,149.71
-GREATOCEANROAD,Grossvalueaddedinmillions,862,915,999,865,658,841,1247,1318,-38.73,143.68
-GREATOCEANROAD,Grossregionalproductinmillions,988,1048,1145,992,763,974,1440,1520,-38.73,143.68
-GREATOCEANROAD,Fiilledjobsinthousands,12.1,12.9,13.3,12.4,9.5,11.7,15.6,15.7,-38.73,143.68
-HIGHCOUNTRY,Grossvalueaddedinmillions,697,863,1100,749,493,772,1507,1412,-37.17,146.56
-HIGHCOUNTRY,Grossregionalproductinmillions,802,993,1266,861,572,899,1741,1634,-37.17,146.56
-HIGHCOUNTRY,Fiilledjobsinthousands,10.2,12.7,15.1,11.2,7,11,19.3,17.3,-37.17,146.56
-LAKES,Grossvalueaddedinmillions,217,269,281,283,229,324,355,456,-38.26,144.6
-LAKES,Grossregionalproductinmillions,250,309,324,325,265,377,411,526,-38.26,144.6
-LAKES,Fiilledjobsinthousands,3.7,4.6,4.4,4.9,3.9,5.4,5.3,6.5,-38.26,144.6
-MACEDON,Grossvalueaddedinmillions,126,127,133,114,89,128,168,176,-37.42,144.55
-MACEDON,Grossregionalproductinmillions,142,144,150,128,102,146,191,201,-37.42,144.55
-MACEDON,Fiilledjobsinthousands,1.7,1.8,1.8,1.6,1.1,1.6,2,2,-37.42,144.55
-MALLEE,Grossvalueaddedinmillions,281,296,320,259,153,207,363,417,-34.76,142.27
-MALLEE,Grossregionalproductinmillions,321,339,367,297,177,240,420,482,-34.76,142.27
-MALLEE,Fiilledjobsinthousands,4.1,4.4,4.4,3.9,2.2,2.9,4.6,5.2,-34.76,142.27
-MELBOURNE,Grossvalueaddedinmillions,13121,14026,15805,12636,4303,7149,15633,18227,-37.81,144.96
-MELBOURNE,Grossregionalproductinmillions,14822,15872,17954,14343,4992,8231,17943,20972,-37.81,144.96
-MELBOURNE,Fiilledjobsinthousands,118.3,127.4,137.7,114.6,37.3,62,125,142.5,-37.81,144.96
-MURRAYEAST,Grossvalueaddedinmillions,82,85,107,94,78,87,125,144,-35.41,143.63
-MURRAYEAST,Grossregionalproductinmillions,94,98,123,108,90,102,145,166,-35.41,143.63
-MURRAYEAST,Fiilledjobsinthousands,0.8,0.9,1.1,1,0.7,0.8,1.1,1.2,-35.41,143.63
-PENINSULA,Grossvalueaddedinmillions,743,870,981,793,555,689,1213,1325,-38.35,145
-PENINSULA,Grossregionalproductinmillions,845,988,1119,905,640,791,1388,1518,-38.35,145
-PENINSULA,Fiilledjobsinthousands,9.8,11.5,12.3,10.5,7.3,8.7,14,14.9,-38.35,145
-PHILLIPISLAND,Grossvalueaddedinmillions,367,356,471,351,304,385,588,596,-38.48,145.2
-PHILLIPISLAND,Grossregionalproductinmillions,422,409,541,403,354,447,681,687,-38.48,145.2
-PHILLIPISLAND,Fiilledjobsinthousands,5,4.8,6,4.8,3.9,5,7,6.7,-38.48,145.2
-Daylesford,Grossvalueaddedinmillions,117,135,173,122,103,123,221,206,-37.33,144.13
-Daylesford,Grossregionalproductinmillions,134,155,199,139,119,142,255,238,-37.33,144.13
-Daylesford,Fiilledjobsinthousands,2.8,3.2,3.8,2.9,2.3,2.6,4.4,4,-37.33,144.13
-WESTERNGRAMPIANS,Grossvalueaddedinmillions,109,119,160,118,102,108,145,135,-37.2,142.39
-WESTERNGRAMPIANS,Grossregionalproductinmillions,125,135,183,134,117,124,167,155,-37.2,142.39
-WESTERNGRAMPIANS,Fiilledjobsinthousands,1.7,1.9,2.4,1.9,1.6,1.6,2,1.8,-37.2,142.39
-WIMMERA,Grossvalueaddedinmillions,33,33,37,41,31,37,47,50,-36.31,142.36
-WIMMERA,Grossregionalproductinmillions,38,38,43,47,36,43,54,58,-36.31,142.36
-WIMMERA,Fiilledjobsinthousands,0.7,0.7,0.7,0.9,0.7,0.8,0.9,0.9,-36.31,142.36
-YARRAVALLEYANDTHEDANDENONGRANGES,Grossvalueaddedinmillions,422,452,579,407,260,354,635,749,-37.76,145.34
-YARRAVALLEYANDTHEDANDENONGRANGES,Grossregionalproductinmillions,478,512,656,461,296,405,725,855,-37.76,145.34
-YARRAVALLEYANDTHEDANDENONGRANGES,Fiilledjobsinthousands,6.2,6.6,8,6,3.7,4.8,8,9.3,-37.76,145.34
-
+,,2017,2018,2019,2020,2021,2022,2023,2024,latitude,longitude
+BALLARAT,Gross value added in millions,349,331,392,286,214,289,503,570,-37.56,143.85
+BALLARAT,Gross regional product in millions,395,376,445,325,244,331,575,651,-37.56,143.85
+BALLARAT,Fiilled jobs in thousands,4.6,4.4,4.9,3.8,2.7,3.5,5.7,6.4,-37.56,143.85
+BENDIGO LODDON,Gross value added in millions,414,440,525,408,288,429,694,629,-36.75,144.27
+BENDIGO LODDON,Gross regional product in millions,468,498,596,463,330,491,790,720,-36.75,144.27
+BENDIGO LODDON,Fiilled jobs in thousands,5.4,5.8,6.6,5.4,3.5,5.2,7.9,7,-36.75,144.27
+CENTRAL HIGHLANDS,Gross value added in millions,93,105,91,92,80,117,144,197,-23.5,148.15
+CENTRAL HIGHLANDS,Gross regional product in millions,107,121,104,106,93,136,167,228,-23.5,148.15
+CENTRAL HIGHLANDS,Fiilled jobs in thousands,1.8,2,1.6,1.8,1.4,2.1,2.3,3.1,-23.5,148.15
+CENTRAL MURRAY,Gross value added in millions,277,328,334,301,192,246,364,380,-35.11,139.26
+CENTRAL MURRAY,Gross regional product in millions,317,375,384,346,223,285,419,438,-35.11,139.26
+CENTRAL MURRAY,Fiilled jobs in thousands,4.6,5.5,5.2,5.1,3.3,4.1,5.3,5.3,-35.11,139.26
+GEELONG AND THE BELLARINE,Gross value added in millions,675,697,800,679,388,630,1019,1222,-38.14,144.35
+GEELONG AND THE BELLARINE,Gross regional product in millions,766,790,910,773,447,722,1164,1397,-38.14,144.35
+GEELONG AND THE BELLARINE,Fiilled jobs in thousands,8.7,9,9.9,8.8,5,7.8,11.6,13.6,-38.14,144.35
+GEELONG AND THE BELLARINE,TotalVisitors,-,5326,6007,6012,3240,3650,6225,-,-38.14,144.35
+GIPPSLAND,Gross value added in millions,474,440,553,480,405,463,689,703,-37.58,147.47
+GIPPSLAND,Gross regional product in millions,541,502,630,547,465,531,789,807,-37.58,147.47
+GIPPSLAND,Fiilled jobs in thousands,6.1,5.7,6.8,6.3,5.1,5.6,7.7,7.6,-37.58,147.47
+GIPPSLAND,TotalVisitors,-,5468,6176,6297,4174,4848,5891,-,-37.58,147.47
+GOULBURN,Gross value added in millions,253,244,300,232,176,212,356,362,-34.75,149.71
+GOULBURN,Gross regional product in millions,287,276,339,263,204,244,405,412,-34.75,149.71
+GOULBURN,Fiilled jobs in thousands,3.6,3.5,4.2,3.4,2.4,2.9,4.5,4.4,-34.75,149.71
+GREAT OCEAN ROAD,Gross value added in millions,862,915,999,865,658,841,1247,1318,-38.73,143.68
+GREAT OCEAN ROAD,Gross regional product in millions,988,1048,1145,992,763,974,1440,1520,-38.73,143.68
+GREAT OCEAN ROAD,Fiilled jobs in thousands,12.1,12.9,13.3,12.4,9.5,11.7,15.6,15.7,-38.73,143.68
+GREAT OCEAN ROAD,TotalVisitors,-,5623,6120,6435,3599,4375,5842,-,-38.73,143.68
+HIGH COUNTRY,Gross value added in millions,697,863,1100,749,493,772,1507,1412,-37.17,146.56
+HIGH COUNTRY,Gross regional product in millions,802,993,1266,861,572,899,1741,1634,-37.17,146.56
+HIGH COUNTRY,Fiilled jobs in thousands,10.2,12.7,15.1,11.2,7,11,19.3,17.3,-37.17,146.56
+HIGH COUNTRY,TotalVisitors,-,4519,5126,5016,2715,3527,5490,-,-37.17,146.56
+LAKES,Gross value added in millions,217,269,281,283,229,324,355,456,-38.26,144.6
+LAKES,Gross regional product in millions,250,309,324,325,265,377,411,526,-38.26,144.6
+LAKES,Fiilled jobs in thousands,3.7,4.6,4.4,4.9,3.9,5.4,5.3,6.5,-38.26,144.6
+MACEDON,Gross value added in millions,126,127,133,114,89,128,168,176,-37.42,144.55
+MACEDON,Gross regional product in millions,142,144,150,128,102,146,191,201,-37.42,144.55
+MACEDON,Fiilled jobs in thousands,1.7,1.8,1.8,1.6,1.1,1.6,2,2,-37.42,144.55
+MALLEE,Gross value added in millions,281,296,320,259,153,207,363,417,-34.76,142.27
+MALLEE,Gross regional product in millions,321,339,367,297,177,240,420,482,-34.76,142.27
+MALLEE,Fiilled jobs in thousands,4.1,4.4,4.4,3.9,2.2,2.9,4.6,5.2,-34.76,142.27
+MELBOURNE,Gross value added in millions,13121,14026,15805,12636,4303,7149,15633,18227,-37.81,144.96
+MELBOURNE,Gross regional product in millions,14822,15872,17954,14343,4992,8231,17943,20972,-37.81,144.96
+MELBOURNE,Fiilled jobs in thousands,118.3,127.4,137.7,114.6,37.3,62,125,142.5,-37.81,144.96
+MELBOURNE,TotalVisitors,-,30494,34651,37750,14128,18336,30715,-,-37.81,144.96
+MURRAY EAST,Gross value added in millions,82,85,107,94,78,87,125,144,-35.41,143.63
+MURRAY EAST,Gross regional product in millions,94,98,123,108,90,102,145,166,-35.41,143.63
+MURRAY EAST,Fiilled jobs in thousands,0.8,0.9,1.1,1,0.7,0.8,1.1,1.2,-35.41,143.63
+MURRAY EAST,TotalVisitors,-,5826,6306,6443,3676,4140,5854,-,-35.41,143.63
+PENINSULA,Gross value added in millions,743,870,981,793,555,689,1213,1325,-38.35,145
+PENINSULA,Gross regional product in millions,845,988,1119,905,640,791,1388,1518,-38.35,145
+PENINSULA,Fiilled jobs in thousands,9.8,11.5,12.3,10.5,7.3,8.7,14,14.9,-38.35,145
+PENINSULA,TotalVisitors,-,7646,8123,7844,4508,5294,8227,-,-38.35,145
+PHILLIP ISLAND,Gross value added in millions,367,356,471,351,304,385,588,596,-38.48,145.2
+PHILLIP ISLAND,Gross regional product in millions,422,409,541,403,354,447,681,687,-38.48,145.2
+PHILLIP ISLAND,Fiilled jobs in thousands,5,4.8,6,4.8,3.9,5,7,6.7,-38.48,145.2
+PHILLIP ISLAND,TotalVisitors,-,2473,2245,2643,1421,1970,2329,-,-38.48,145.2
+Daylesford,Gross value added in millions,117,135,173,122,103,123,221,206,-37.33,144.13
+Daylesford,Gross regional product in millions,134,155,199,139,119,142,255,238,-37.33,144.13
+Daylesford,Fiilled jobs in thousands,2.8,3.2,3.8,2.9,2.3,2.6,4.4,4,-37.33,144.13
+Daylesford,TotalVisitors,-,2714,3012,3553,1879,2265,3493,-,-37.33,144.13
+WESTERN GRAMPIANS,Gross value added in millions,109,119,160,118,102,108,145,135,-37.2,142.39
+WESTERN GRAMPIANS,Gross regional product in millions,125,135,183,134,117,124,167,155,-37.2,142.39
+WESTERN GRAMPIANS,Fiilled jobs in thousands,1.7,1.9,2.4,1.9,1.6,1.6,2,1.8,-37.2,142.39
+WESTERN GRAMPIANS,TotalVisitors,-,2261,2388,2683,1277,1703,2507,-,-37.2,142.39
+WIMMERA,Gross value added in millions,33,33,37,41,31,37,47,50,-36.31,142.36
+WIMMERA,Gross regional product in millions,38,38,43,47,36,43,54,58,-36.31,142.36
+WIMMERA,Fiilled jobs in thousands,0.7,0.7,0.7,0.9,0.7,0.8,0.9,0.9,-36.31,142.36
+YARRA VALLEY AND THE DANDENONG RANGES,Gross value added in millions,422,452,579,407,260,354,635,749,-37.76,145.34
+YARRA VALLEY AND THE DANDENONG RANGES,Gross regional product in millions,478,512,656,461,296,405,725,855,-37.76,145.34
+YARRA VALLEY AND THE DANDENONG RANGES,Fiilled jobs in thousands,6.2,6.6,8,6,3.7,4.8,8,9.3,-37.76,145.34
+YARRA VALLEY AND THE DANDENONG RANGES,TotalVisitors,-,4350,4966,5486,2545,3362,4685,-,-37.76,145.34
