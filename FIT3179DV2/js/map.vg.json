@@ -1,12 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Regional Economic Growth Over Time (2017–2024)",
+  "title": "Melbourne tourism and its inpact on the regional Economic Growth Over Time (2017–2024)",
   "width": 600,
   "height": 500,
 
   "params": [
     {
-      "name": "yearParam",
+      "name": "Year",
       "value": 2017,
       "bind": {
         "input": "range",
@@ -16,17 +16,19 @@
       }
     },
     {
-      "name": "indicatorParam",
+      "name": "Tourism_value",
       "value": "Grossvalueaddedinmillions",
       "bind": {
         "input": "select",
         "options": [
           "Grossvalueaddedinmillions",
-          "Grossregionalproductinmillions"
+          "Grossregionalproductinmillions", 
+          "TotalVisitors"
         ],
         "labels": [
           "Gross value added in millions",
-          "Gross regional product in millions"
+          "Gross regional product in millions", 
+          "Number of tourists"
         ]
       }
     }
@@ -35,21 +37,21 @@
   "layer": [
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/wBenlim/3179week10homework/main/FIT3179week10homework/js/ne_110m.topojson",
+        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/ne_110m.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "mark": {"type": "geoshape", "fill": "beige", "stroke": "white"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/wBenlim/3179week10homework/main/FIT3179week10homework/js/ne_110m.topojson",
+        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/ne_110m.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
       },
       "mark": {"type": "geoshape", "fill": "transparent", "stroke": "lightgray", "opacity": 0.3}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/wBenlim/3179week10homework/main/FIT3179week10homework/data/Dv2dataset1.csv"
+        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"
       },
       "transform": [
         {
@@ -59,8 +61,8 @@
           "as": ["year", "value"]
         },
         {"calculate": "toNumber(datum.year)", "as": "year_num"},
-        {"filter": "datum.year_num == yearParam"},
-        {"filter": "datum.label == indicatorParam"}
+        {"filter": "datum.year_num == Year"},
+        {"filter": "datum.label == Tourism_value"}
       ],
       "mark": {
         "type": "circle",
