@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "description": "Bubble chart for GRP, Filled Jobs, and Visitors for most regions.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"
+  },
+
+  "params": [
+    {
+      "name": "yearSelect",
+      "value": "2023",
+      "bind": {
+        "input": "select",
+        "options": [
+          "2018",
+          "2019", "2020", "2021", "2022", "2023"
+        ],
+        "name": "Select Year: "
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "filter": "datum.Region != 'VICTORIA' && datum.Region != 'NEWSOUTHWALES' && datum.Region != 'MELBOURNE'"
+    },
+    {
+      "fold": [
+        "2014", "2015", "2016", "2017", "2018",
+        "2019", "2020", "2021", "2022", "2023", "2024"
+      ],
+      "as": ["Year", "Value"]
+    },
+    {
+      "filter": "datum.Year == yearSelect"
+    },
+    {
+      "pivot": "label",
+      "value": "Value",
+      "groupby": ["Region", "Year"]
+    },
+    {
+      "calculate": "toNumber(datum['Grossregionalproductinmillions'])",
+      "as": "GRP"
+    },
+    {
+      "calculate": "toNumber(datum['Fiilledjobsinthousands'])",
+      "as": "FilledJobs"
+    },
+    {
+      "calculate": "toNumber(datum['TotalVisitorsinthousands'])",
+      "as": "Visitors"
+    }
+  ],
+
+  "mark": {"type": "circle", "opacity": 0.7},
+
+  "encoding": {
+    "x": {
+      "field": "GRP",
+      "type": "quantitative",
+      "title": "Gross Regional Product (million AUD)"
+    },
+    "y": {
+      "field": "FilledJobs",
+      "type": "quantitative",
+      "title": "Filled Jobs (thousands)"
+    },
+    "size": {
+      "field": "Visitors",
+      "type": "quantitative",
+      "title": "Visitors (thousands)",
+      "scale": {"range": [50, 2000]}
+    },
+    "color": {
+      "field": "Region",
+      "type": "nominal",
+      "title": "Region"
+    },
+    "tooltip": [
+      {"field": "Region", "type": "nominal"},
+      {"field": "GRP", "type": "quantitative", "title": "GRP (million AUD)"},
+      {"field": "FilledJobs", "type": "quantitative", "title": "Filled Jobs (000s)"},
+      {"field": "Visitors", "type": "quantitative", "title": "Visitors (000s)"},
+      {"field": "Year", "type": "ordinal"}
+    ]
+  },
+
+  "width": 700,
+  "height": 500
+}
