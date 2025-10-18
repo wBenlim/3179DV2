@@ -90,7 +90,7 @@
         "color": {
           "field": "value",
           "type": "quantitative",
-          "scale": {"range": ["#a1d99b", "#31a354", "#006d2c"]},
+          "scale": {"range": ["#a6cee3", "#1f78b4", "#08306b"]},
           "title": "Value (Selected Year)"
         },
         "tooltip": [
