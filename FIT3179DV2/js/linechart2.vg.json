@@ -1,0 +1,60 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "title": "Gross Regional Product (2014–2024): Victoria",
+  "data": {"url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"},
+  "transform": [
+    {
+      "fold": ["2014","2015","2016","2017","2018","2019","2020","2021","2022","2023","2024"],
+      "as": ["Year", "Value"]
+    },
+    {"filter": "datum.label == 'Grossregionalproductinmillions'"},
+    {"filter": "datum.Region == 'VICTORIA'"}
+  ],
+  "vconcat": [
+    {
+      "width": 600,
+      "height": 300,
+      "mark": {"type": "area", "tooltip": true},
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "scale": {"domain": {"param": "brush"}},
+          "axis": {"title": "Year"}
+        },
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "title": "Gross Regional Product (Million AUD)"
+        },
+        "color": {"field": "Region", "type": "nominal", "title": "Region"},
+        "tooltip": [
+          {"field": "Region", "title": "Region"},
+          {"field": "Year", "title": "Year"},
+          {"field": "Value", "title": "GRP (Million AUD)"}]
+      }
+    },
+    {
+      "width": 600,
+      "height": 80,
+      "mark": "area",
+      "params": [
+        {"name": "brush", "select": {"type": "interval", "encodings": ["x"]}}
+      ],
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal", "title": "Year"},
+        "y": {
+          "field": "Value",
+          "type": "quantitative",
+          "axis": {"tickCount": 3, "grid": false}
+        },
+        "color": {"field": "Region", "type": "nominal", "legend": null},
+        "tooltip": [
+          {"field": "Region", "title": "Region"},
+          {"field": "Year", "title": "Year"},
+          {"field": "Value", "title": "GRP (Million AUD)"}
+        ]
+      }
+    }
+  ]
+}

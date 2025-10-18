@@ -1,0 +1,79 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Multi-line chart with dropdown for selecting metric (Gross Value, GRP, or Filled Jobs) for all regions except Victoria and NSW.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"
+  },
+
+  "params": [
+    {
+      "name": "metricSelect",
+      "value": "Fiilledjobsinthousands",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Grossvalueaddedinthousands",
+          "Grossregionalproductinthousands",
+          "Fiilledjobsinthousands"
+        ],
+        "labels": [
+          "Gross Value Added (thousands)",
+          "Gross Regional Product (thousands)",
+          "Filled Jobs (thousands)"
+        ],
+        "name": "Select a Metric: "
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "filter": "datum.Region != 'VICTORIA' && datum.Region != 'NEWSOUTHWALES'"
+    },
+    {
+      "filter": "datum.label == metricSelect"
+    },
+    {
+      "fold": [
+        "2014", "2015", "2016", "2017", "2018",
+        "2019", "2020", "2021", "2022", "2023", "2024"
+      ],
+      "as": ["Year", "Value"]
+    },
+    {
+      "calculate": "toNumber(datum.Value)",
+      "as": "Value"
+    }
+  ],
+
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+
+  "width": 700,
+  "height": 420,
+
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Value (in thousands)"
+    },
+    "color": {
+      "field": "Region",
+      "type": "nominal",
+      "title": "Region"
+    },
+    "tooltip": [
+      {"field": "Region", "type": "nominal"},
+      {"field": "Year", "type": "ordinal"},
+      {"field": "Value", "type": "quantitative", "title": "Value (000s)"}
+    ]
+  }
+}

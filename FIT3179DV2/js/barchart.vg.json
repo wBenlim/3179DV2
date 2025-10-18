@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Bar chart of Total Visitors (in thousands) for Victoria and New South Wales.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.label == 'TotalVisitorsinthousands'"
+    },
+    {
+      "filter": "datum.Region == 'VICTORIA' || datum.Region == 'NEWSOUTHWALES'"
+    },
+    {
+      "fold": [
+        "2014", "2015", "2016", "2017", "2018",
+        "2019", "2020", "2021", "2022", "2023", "2024"
+      ],
+      "as": ["Year", "Visitors"]
+    },
+    {
+      "calculate": "toNumber(datum.Visitors)",
+      "as": "Visitors"
+    }
+  ],
+  "mark": "bar",
+  "width": 500,
+  "height": 400,
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "Visitors",
+      "type": "quantitative",
+      "title": "Total Visitors (thousands)"
+    },
+    "color": {
+      "field": "Region",
+      "type": "nominal",
+      "title": "Region"
+    },
+    "tooltip": [
+      {"field": "Region", "type": "nominal"},
+      {"field": "Year", "type": "ordinal"},
+      {"field": "Visitors", "type": "quantitative", "title": "Visitors (000s)"}
+    ]
+  }
+}
