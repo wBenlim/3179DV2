@@ -1,8 +1,8 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "line chart for Victoria and NSW.",
   "data": {
-    "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"
+    "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/data/Dv2dataset1.csv"
   },
 
   "params": [

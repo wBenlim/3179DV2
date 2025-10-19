@@ -46,21 +46,21 @@
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/ne_110m.topojson",
+        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/js/ne_110m.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
       "mark": {"type": "geoshape", "fill": "#d9e3cc", "stroke": "white"}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/ne_110m.topojson",
+        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/js/ne_110m.topojson",
         "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
       },
       "mark": {"type": "geoshape", "fill": "transparent", "stroke": "red", "opacity": 0.3}
     },
     {
       "data": {
-        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"
+        "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/data/Dv2dataset1.csv"
       },
       "transform": [
         {

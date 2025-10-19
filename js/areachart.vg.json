@@ -1,10 +1,10 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "area chart showing Gross Regional Product (2014–2024) across 4 regions.",
   "title": "Gross Regional Product (2014–2024) by Region",
 
   "data": {
-    "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/data/Dv2dataset1.csv"
+    "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/data/Dv2dataset1.csv"
   },
 
   "transform": [
