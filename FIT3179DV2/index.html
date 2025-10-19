@@ -197,7 +197,7 @@
   <header>
     <h1>Melbourne & NSW Tourism and Economic Growth across 2014 to 2024</h1>
     <p class="subtitle">
-    An interactive overview of tourism performance and its impact on regional economic development.
+    The visualisation dashboard below shows the overview of tourism performance and its impact on regional economic development on Victoria and New South Wales, Australia from 2014 - 2024. The purpose of this dashboard is to allow users to visualize tourism and economic trends such as the overall number of visitors, the number of jobs filled due to tourism and the gross regional product which is the GDP of a region; over the years in the regions of Melbourne, Victoria. Users can also compare the tourism and economic developement between 2 states of Australia, Victoria and New South Wales
   </p>
   </header>
 
@@ -209,42 +209,36 @@
       <!-- LEFT SIDE -->
       <div class="left-stack">
         <div class="chart-box">
-          <h2>Area Chart: Gross Value & Regional Product Growth</h2>
+          <h2>Bubble Chart of Regional Product Growth vs visitors and jobs in tourism industry (2018 - 2023)</h2>
           <div id="bubblechart"></div>
-          <p class="chart-description">
-            Tracks Gross Value Added (GVA) and Gross Regional Product (GRP) across years.
-          </p>
         </div>
 
         <div class="info-section">
-          <strong>Tourism Insights (2014–2024)</strong><br>
-          Summary of yearly growth trends, highlighting key tourism-driven regions.
+          <strong>Melbourne Regional Product Growth vs tourism </strong><br>
+          The bubble chart above shows the impact of tourism such as the number of jobs in the tourism industry and number of visitors for regions in melbourne on the economic growth of the regions in melbourne. The larger the bubble, the more visitors there is.
         </div>
 
         <div class="chart-box">
-          <h2>Bar Chart: Visitor Volume Trends</h2>
+          <h2>Line chart of Victoria and New South Wales economic development</h2>
           <div id="linechart"></div>
-          <p class="chart-description">
-            Displays visitor volumes and patterns across Victoria and NSW.
-          </p>
         </div>
       </div>
 
       <!-- RIGHT SIDE -->
       <div class="right-stack">
         <div class="map-container">
-          <h2>Tourism & Economic Activity Map</h2>
+          <h2>Tourism & Economic developement Map of Melbourne regions</h2>
           <div id="map"></div>
         </div>
 
         <div class="info-section">
-          <strong>Regional Highlights:</strong><br>
-          Top-performing areas in Gross Value Added and employment.
+          <strong>Melbourne regional tourism and economic growth from 2014 - 2024</strong><br>
+          The map above shows from 2014 to 2024 3 tourism indictors: Gross value added, Gross regional product and number of tourist. This indictors are plotted on a map of melbourne and will compare the regions of melbourne. The indictor can be selected using the dropdown menu of tourism_indicator. The first slider for the year can be used to show the value of the indictor for that year. As this is a symbol map, the larger the bubble on the map, the larger the value of the tourism indictor is at that place on the map. The larger the value is, the darker the orange bubble is on the map. There is also a zoom function with the slider at the end of the map to zoom in and out of the map. 
         </div>
 
         <div class="info-section">
-          <strong>Data Notes:</strong><br>
-          All values adjusted to 2024 dollars for comparability across the decade.
+          <strong>Victoria vs New south wales economic development</strong><br>
+          The line chart on the right shows the comparison of the economic metric which is selected at the end of the line chart with a dropdown menu; of Victoria and new south wales. The brush which is the chart below the line chart can be used to select the year or the period of the time in years to filter the line chart and compare victoria and new south wales. 
         </div>
       </div>
 
@@ -253,17 +247,17 @@
     <!-- === BOTTOM SECTION === -->
     <div class="bottom-section">
       <div class="bottom-chart">
-        <h2>Employment Trends in Tourism</h2>
+        <h2>Area Chart of Gross regional product of some regions in melbourne </h2>
         <div id="areachart"></div>
       </div>
 
       <div class="bottom-info">
-        The data below highlights the interconnection between tourism, job creation, and overall
-        regional prosperity. It emphasizes how tourism recovery fuels economic performance.
+        The area chart on the left shows the comparison of gross regional product for 4 regions in melbourne and can be used to compare the economic situation of the 4 regions.
+        The Bar chart on the right shows the comparison of the number of tourist for victoria vs new south wales using a stacked bar chart.
       </div>
 
       <div class="bottom-chart">
-        <h2>Tourism vs Economic Growth</h2>
+        <h2>Bar chart of visitors for victoria vs new south wales</h2>
         <div id="barchart"></div>
       </div>
     </div>
@@ -278,10 +272,6 @@
     vegaEmbed('#linechart', 'https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/linechart.vg.json').catch(console.error);
     vegaEmbed('#bubblechart', 'https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/bubblechart.vg.json').catch(console.error);
   </script>
-
-  <footer>
-    © 2025 Tourism & Economic Dashboard | Data Source: Regional Statistics (2014–2024)
-  </footer>
 
 </body>
 </html>
