@@ -11,13 +11,33 @@
 <body>
   
 <div id="map"></div>
+<div id="areachart"></div>
+<div id="barchart"></div>
+<div id="linechart"></div>
+<div id="bubblechart"></div>
 
 <script type="text/javascript">
 
   var specVis1 = "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/map.vg.json"
-
   vegaEmbed('#map', specVis1).then(function(result) {
   }).catch(console.error);
+
+  var specVis2 = "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/areachart.vg.json"
+  vegaEmbed('#areachart', specVis2).then(function(result) {
+  }).catch(console.error);
+
+  var specVis3 = "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/linechart.vg.json"
+  vegaEmbed('#linechart', specVis3).then(function(result) {
+  }).catch(console.error);
+
+  var specVis4 = "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/barchart.vg.json" 
+  vegaEmbed('#barchart', specVis4).then(function(result) {
+  }).catch(console.error);
+
+  var specVis5 = "https://raw.githubusercontent.com/wBenlim/3179DV2/main/FIT3179DV2/js/bubblechart.vg.json"
+  vegaEmbed('#bubblechart', specVis5).then(function(result) {
+  }).catch(console.error);
+
 </script>
 
 </body>
