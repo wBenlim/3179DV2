@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "description": "area chart showing Gross Regional Product (2014–2024) across 4 regions.",
   "title": "Gross Regional Product (2014–2024) by Region",
 

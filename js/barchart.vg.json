@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "description": "Bar chart of Total Visitors (in thousands) for Victoria and NSW.",
   "data": {
     "url": "https://raw.githubusercontent.com/wBenlim/3179DV2/main/data/Dv2dataset1.csv"

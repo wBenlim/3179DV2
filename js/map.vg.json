@@ -1,5 +1,5 @@
 {
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
   "title": "Melbourne tourism and its inpact on the regional Economic Growth Over Time (2014–2024)",
   "width": 600,
   "height": 500,
